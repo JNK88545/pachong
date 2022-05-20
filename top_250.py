@@ -1,4 +1,4 @@
-# coding=utf-8
+# coding=utf-8https://github.com/JNK88545/pachong/blob/main/top_250.py
 # @Time : 2022/4/22 14:40
 # @Author : jnk
 # @FileName: top_250.py
@@ -147,7 +147,7 @@ def sqlsave(datalist,dbpath):
     conn=pymysql.connect(host='localhost',
                          port=3309,
                          user='root',
-                         password='jnk1122',
+                         password='*****',
                          database=dbpath)
     cur = conn.cursor()
     for data in datalist:
